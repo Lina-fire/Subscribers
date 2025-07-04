@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Мобильная сеть</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainLayout" spacing="6" margin="6">
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>1</horstretch>
+        <verstretch>1</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="columnCount">
+       <number>9</number>
+      </property>
+      <column>
+       <property name="text">
+        <string>Фамилия</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Инициалы</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Телефон</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Тариф</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ГБ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Минуты</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>СМС</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Платеж (год)</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Дата</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="buttonLayout" spacing="10">
+      <item>
+       <widget class="QPushButton" name="btn_load">
+        <property name="text">
+         <string>Загрузить данные</string>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_save">
+        <property name="text">
+         <string>Сохранить данные</string>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_add">
+        <property name="text">
+         <string>Добавить данные</string>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+<item>
+    <widget class="QPushButton" name="btn_delete_all">
+        <property name="text">
+            <string>Удалить всё</string>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>100</width>
+                <height>30</height>
+            </size>
+        </property>
+    </widget>
+</item>
+      <item>
+       <widget class="QPushButton" name="btn_edit">
+        <property name="text">
+         <string>Редактировать данные</string>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_delete">
+        <property name="text">
+         <string>Удалить данные</string>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
